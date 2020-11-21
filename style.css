@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(251, 244, 178);
+}
+
+.User-Container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    min-height: 30px;
+    min-width: 80%;
+
+    background-color: red;
+    border: 2px solid black;
+    border-radius:20px;
+
+    padding: 20px;
+    margin: 10px;
+}
+
+.Computer-Container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    min-height: 30px;
+    min-width: 80%;
+
+    background-color: blue;
+    border: 2px solid black;
+    border-radius:20px;
+
+    padding: 20px;
+    margin: 10px;
+}
+
+.Parent{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.QueryContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#QueryInput{
+    min-width: 80%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+#QueryButton{
+    min-width: 10%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
